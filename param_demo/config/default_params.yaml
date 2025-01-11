@@ -1,0 +1,18 @@
+/**:
+    ros__parameters:
+        my_robot:
+            name: 'RoboX_loaded'
+            debug_mode: true
+            max_speed: 1.5
+            sensor_list:
+                - 'lidar_loaded'
+                - 'camera_loaded'
+                - 'ultrasonic_loaded'
+        param_sample_robot:
+            name: 'RoboX_loaded_sample'
+            debug_mode: false
+            max_speed: 2.5
+            sensor_list:
+                - 'lidar_loaded_sample'
+                - 'camera_loaded_sample'
+                - 'ultrasonic_loaded_sample'
