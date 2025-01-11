@@ -3,7 +3,7 @@
 [![ROS2 Version](https://img.shields.io/badge/ROS2-Humble-blue)](https://docs.ros.org/en/humble/)
 [![Developer](https://img.shields.io/badge/Developer-shashank3199-green)](https://github.com/shashank3199)
 
-This repository demonstrates the usage of ROS2 Parameters through a collection of C++ and Python nodes. The examples showcase parameter declaration, reading, writing, and dynamic updates, highlighting ROS2's parameter system capabilities and cross-language interoperability.
+This repository demonstrates the usage of ROS2 Parameters through a collection of C++ and Python nodes. The examples showcase parameter declaration, reading, writing, and dynamic updates, highlighting ROS2's parameter system capabilities and cross-language interoperability. Read the [Mastering ROS2: Harnessing the Power of ROS2 Parameters for Real-Time Configuration](https://shashank-goyal-blogs.medium.com/mastering-ros2-harnessing-the-power-of-ros2-parameters-for-real-time-configuration-afd4c3890fc9) blog post for a detailed explanation.
 
 ## Table of Contents
 
