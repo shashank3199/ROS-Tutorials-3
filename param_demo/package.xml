@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+    <name>param_demo</name>
+    <version>0.0.1</version>
+    <description>Demonstration of ROS2 Parameters with C++ and Python</description>
+    <maintainer email="shashank3199@gmail.com">Shashank Goyal</maintainer>
+    <license>Apache License 2.0</license>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+    <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+    <!-- Build dependencies -->
+    <build_depend>rclcpp</build_depend>
+    <build_depend>rclpy</build_depend>
+    <build_depend>rclcpp_components</build_depend>
+
+    <!-- Execution dependencies -->
+    <exec_depend>rclcpp</exec_depend>
+    <exec_depend>rclpy</exec_depend>
+    <exec_depend>rclcpp_components</exec_depend>
+
+    <!-- For parameter types -->
+    <depend>rcl_interfaces</depend>
+
+    <test_depend>ament_lint_auto</test_depend>
+    <test_depend>ament_lint_common</test_depend>
+    <test_depend>ament_cmake_pytest</test_depend>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>
